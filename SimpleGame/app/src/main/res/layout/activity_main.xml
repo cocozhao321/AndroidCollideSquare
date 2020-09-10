@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#52afaa"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="Share Your Score!"/>
+
+    <TextView
+        android:id="@+id/game_over_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#397bb2"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="@string/game_over_message"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:hint="Name"
+        android:padding="20dp"
+        android:layout_marginBottom="30sp"
+        android:textColor="#6bfff7"
+        android:textColorHint="#52afaa"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/start_game"
+
+        android:padding="20sp"
+        android:background="#397bb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Submit and Go to Leader Board"/>
+
+</LinearLayout>
